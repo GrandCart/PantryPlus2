@@ -1,4 +1,4 @@
-// swift-tools-version: 6.1
+// swift-tools-version: 5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -14,7 +14,7 @@ let package = Package(
             targets: ["PantryPlus2"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", "11.0.0"..<"12.0.0")
+        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "10.17.0")
     ],
     targets: [
         .target(
@@ -29,11 +29,16 @@ let package = Package(
             path: "Sources/PantryPlus2",
             resources: [
                 .process("Resources")
+            ],
+            swiftSettings: [
+                .enableUpcomingFeature("BareSlashRegexLiterals"),
+                .enableExperimentalFeature("StrictConcurrency")
             ]
         ),
         .testTarget(
             name: "PantryPlus2Tests",
-            dependencies: ["PantryPlus2"]
+            dependencies: ["PantryPlus2"],
+            path: "Tests/PantryPlus2Tests"
         ),
     ]
 ) 
