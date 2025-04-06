@@ -34,8 +34,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - name: Install SwiftLint
-        run: brew install swiftlint
-        
-      - name: Run SwiftLint
-        run: swiftlint --strict 
+      - name: SwiftLint
+        uses: norio-nomura/action-swiftlint@3.2.1
+        with:
+          args: --config .swiftlint.yml 

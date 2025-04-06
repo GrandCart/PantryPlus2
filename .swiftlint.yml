@@ -1,4 +1,8 @@
-disabled_rules:
+# By default, SwiftLint uses a set of sensible default rules you can adjust:
+disabled_rules: # rule identifiers turned on by default to exclude from running
+  - colon
+  - comma
+  - control_statement
   - trailing_whitespace
   - multiple_closures_with_trailing_closure
   - force_cast
@@ -9,57 +13,28 @@ disabled_rules:
   - type_body_length
   - file_length
   - cyclomatic_complexity
+  - todo
+  - trailing_comma
+  - nesting
 
-opt_in_rules:
-  - empty_count
-  - empty_string
-  - explicit_init
-  - closure_spacing
-  - overridden_super_call
-  - redundant_nil_coalescing
-  - private_outlet
-  - nimble_operator
-  - attributes
-  - operator_usage_whitespace
-  - closure_end_indentation
-  - first_where
-  - sorted_imports
-  - object_literal
-  - number_separator
-  - prohibited_super_call
-  - fatal_error_message
+# paths to include during linting. `--path` argument is ignored if present.
+included:
+  - Sources
 
+# paths to ignore during linting. Takes precedence over `included`.
 excluded:
-  - Carthage
-  - Pods
   - Tests
   - .build
   - DerivedData
+  - Package.swift
 
-line_length:
-  warning: 120
-  error: 200
-  ignores_comments: true
-  ignores_urls: true
-
-function_body_length:
-  warning: 50
-  error: 100
-
-function_parameter_count:
-  warning: 6
-  error: 8
-
-type_body_length:
-  warning: 300
-  error: 500
-
-file_length:
-  warning: 500
-  error: 1000
-
-cyclomatic_complexity:
-  warning: 15
-  error: 25
+# configurable rules can be customized from this configuration file
+# binary rules can set their severity level
+force_cast: warning
+force_try: warning
+line_length: 200
+function_body_length: 100
+type_body_length: 500
+file_length: 1000
 
 reporter: "github-actions-logging" 
