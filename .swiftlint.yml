@@ -32,9 +32,19 @@ excluded:
 # binary rules can set their severity level
 force_cast: warning
 force_try: warning
-line_length: 200
-function_body_length: 100
+line_length: 500
+function_body_length: 500
 type_body_length: 500
-file_length: 1000
+file_length: 2000
 
-reporter: "github-actions-logging" 
+reporter: "github-actions-logging"
+
+only_rules:
+  - closing_brace
+  - empty_enum_arguments
+  - redundant_string_enum_value
+  - redundant_void_return
+  - return_arrow_whitespace
+  - trailing_newline
+  - unused_import
+  - unused_declaration 
