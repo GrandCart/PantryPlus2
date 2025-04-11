@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		571D43FD2DA919E3002ADD13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 571D43E72DA919E1002ADD13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571D43EE2DA919E1002ADD13;
+			remoteInfo = PantryPlus2;
+		};
+		571D44072DA919E3002ADD13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 571D43E72DA919E1002ADD13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571D43EE2DA919E1002ADD13;
+			remoteInfo = PantryPlus2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		571D43EF2DA919E1002ADD13 /* PantryPlus2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PantryPlus2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		571D43FC2DA919E3002ADD13 /* PantryPlus2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PantryPlus2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		571D44062DA919E3002ADD13 /* PantryPlus2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PantryPlus2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		571D43F12DA919E1002ADD13 /* PantryPlus2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PantryPlus2;
+			sourceTree = "<group>";
+		};
+		571D43FF2DA919E3002ADD13 /* PantryPlus2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PantryPlus2Tests;
+			sourceTree = "<group>";
+		};
+		571D44092DA919E3002ADD13 /* PantryPlus2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PantryPlus2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		571D43EC2DA919E1002ADD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571D43F92DA919E3002ADD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571D44032DA919E3002ADD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571D43E62DA919E1002ADD13 = {
+			isa = PBXGroup;
+			children = (
+				571D43F12DA919E1002ADD13 /* PantryPlus2 */,
+				571D43FF2DA919E3002ADD13 /* PantryPlus2Tests */,
+				571D44092DA919E3002ADD13 /* PantryPlus2UITests */,
+				571D43F02DA919E1002ADD13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		571D43F02DA919E1002ADD13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				571D43EF2DA919E1002ADD13 /* PantryPlus2.app */,
+				571D43FC2DA919E3002ADD13 /* PantryPlus2Tests.xctest */,
+				571D44062DA919E3002ADD13 /* PantryPlus2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		571D43EE2DA919E1002ADD13 /* PantryPlus2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571D44102DA919E3002ADD13 /* Build configuration list for PBXNativeTarget "PantryPlus2" */;
+			buildPhases = (
+				571D43EB2DA919E1002ADD13 /* Sources */,
+				571D43EC2DA919E1002ADD13 /* Frameworks */,
+				571D43ED2DA919E1002ADD13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				571D43F12DA919E1002ADD13 /* PantryPlus2 */,
+			);
+			name = PantryPlus2;
+			packageProductDependencies = (
+			);
+			productName = PantryPlus2;
+			productReference = 571D43EF2DA919E1002ADD13 /* PantryPlus2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		571D43FB2DA919E3002ADD13 /* PantryPlus2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571D44132DA919E3002ADD13 /* Build configuration list for PBXNativeTarget "PantryPlus2Tests" */;
+			buildPhases = (
+				571D43F82DA919E3002ADD13 /* Sources */,
+				571D43F92DA919E3002ADD13 /* Frameworks */,
+				571D43FA2DA919E3002ADD13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571D43FE2DA919E3002ADD13 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				571D43FF2DA919E3002ADD13 /* PantryPlus2Tests */,
+			);
+			name = PantryPlus2Tests;
+			packageProductDependencies = (
+			);
+			productName = PantryPlus2Tests;
+			productReference = 571D43FC2DA919E3002ADD13 /* PantryPlus2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		571D44052DA919E3002ADD13 /* PantryPlus2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571D44162DA919E3002ADD13 /* Build configuration list for PBXNativeTarget "PantryPlus2UITests" */;
+			buildPhases = (
+				571D44022DA919E3002ADD13 /* Sources */,
+				571D44032DA919E3002ADD13 /* Frameworks */,
+				571D44042DA919E3002ADD13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571D44082DA919E3002ADD13 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				571D44092DA919E3002ADD13 /* PantryPlus2UITests */,
+			);
+			name = PantryPlus2UITests;
+			packageProductDependencies = (
+			);
+			productName = PantryPlus2UITests;
+			productReference = 571D44062DA919E3002ADD13 /* PantryPlus2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		571D43E72DA919E1002ADD13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					571D43EE2DA919E1002ADD13 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					571D43FB2DA919E3002ADD13 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 571D43EE2DA919E1002ADD13;
+					};
+					571D44052DA919E3002ADD13 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 571D43EE2DA919E1002ADD13;
+					};
+				};
+			};
+			buildConfigurationList = 571D43EA2DA919E1002ADD13 /* Build configuration list for PBXProject "PantryPlus2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 571D43E62DA919E1002ADD13;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 571D43F02DA919E1002ADD13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				571D43EE2DA919E1002ADD13 /* PantryPlus2 */,
+				571D43FB2DA919E3002ADD13 /* PantryPlus2Tests */,
+				571D44052DA919E3002ADD13 /* PantryPlus2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		571D43ED2DA919E1002ADD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571D43FA2DA919E3002ADD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571D44042DA919E3002ADD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		571D43EB2DA919E1002ADD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571D43F82DA919E3002ADD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571D44022DA919E3002ADD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		571D43FE2DA919E3002ADD13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571D43EE2DA919E1002ADD13 /* PantryPlus2 */;
+			targetProxy = 571D43FD2DA919E3002ADD13 /* PBXContainerItemProxy */;
+		};
+		571D44082DA919E3002ADD13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571D43EE2DA919E1002ADD13 /* PantryPlus2 */;
+			targetProxy = 571D44072DA919E3002ADD13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		571D440E2DA919E3002ADD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M3F4FV25V6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		571D440F2DA919E3002ADD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M3F4FV25V6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		571D44112DA919E3002ADD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3F4FV25V6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grandcart.PantryPlus2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		571D44122DA919E3002ADD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3F4FV25V6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grandcart.PantryPlus2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		571D44142DA919E3002ADD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3F4FV25V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grandcart.PantryPlus2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PantryPlus2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PantryPlus2";
+			};
+			name = Debug;
+		};
+		571D44152DA919E3002ADD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3F4FV25V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grandcart.PantryPlus2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PantryPlus2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PantryPlus2";
+			};
+			name = Release;
+		};
+		571D44172DA919E3002ADD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3F4FV25V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grandcart.PantryPlus2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PantryPlus2;
+			};
+			name = Debug;
+		};
+		571D44182DA919E3002ADD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3F4FV25V6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grandcart.PantryPlus2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PantryPlus2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		571D43EA2DA919E1002ADD13 /* Build configuration list for PBXProject "PantryPlus2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571D440E2DA919E3002ADD13 /* Debug */,
+				571D440F2DA919E3002ADD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571D44102DA919E3002ADD13 /* Build configuration list for PBXNativeTarget "PantryPlus2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571D44112DA919E3002ADD13 /* Debug */,
+				571D44122DA919E3002ADD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571D44132DA919E3002ADD13 /* Build configuration list for PBXNativeTarget "PantryPlus2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571D44142DA919E3002ADD13 /* Debug */,
+				571D44152DA919E3002ADD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571D44162DA919E3002ADD13 /* Build configuration list for PBXNativeTarget "PantryPlus2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571D44172DA919E3002ADD13 /* Debug */,
+				571D44182DA919E3002ADD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 571D43E72DA919E1002ADD13 /* Project object */;
+}
